@@ -63,7 +63,7 @@ $(function(){
             },
             success:function(res){
                 if(res.status !==0){
-                    return layer.msg("登录失败！");
+                    return layer.msg("登录失败！请检查输入是否正确,或去注册");
                 }
                 layer.msg('登录成功！');
                 // 将登陆成功的字符串，保存到localStorage中
